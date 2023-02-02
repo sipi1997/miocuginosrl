@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+h1, ul {
+    display: inline-block;
+}
+
+.blocco_alto {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+
+li {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, footer {
+    color: rgb(45, 45, 66);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.foto {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 2%;
+}
+
+p {
+    background-color: rgba(43, 42, 54, 0.212);
+    color: rgb(3, 3, 3);
+    padding: 1%;
+}

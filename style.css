@@ -26,6 +26,7 @@ header {
 
 .head h1 {
     padding: 30px;
+    font-family: "Cooper Hewitt Book", sans-serif;
 }
 
 nav {
@@ -59,5 +60,52 @@ figure {
     background-position: bottom;
     background-size: cover;
     opacity: 90%;
+}
+
+.home-section-sx , .home-section-dx {
+    width: 1200px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.home-section-sx img {
+    float: left;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.home-section-sx article {
+    padding: 16px;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+}
+
+.home-article p {
+    padding: 20px;
+    font-family: "Cooper Hewitt Book", sans-serif;
+    font-size: 20px;
+}
+
+.home-article h2 {
+    padding: 10px;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.home-section-dx article {
+    padding: 16px;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+}
+
+.home-section-dx img {
+    float: right;
+    margin-left: 40px;
+    padding: 30px;
 }
 

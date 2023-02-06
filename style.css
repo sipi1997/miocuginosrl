@@ -26,7 +26,9 @@ header {
 
 .head h1 {
     padding: 30px;
-    font-family: "Cooper Hewitt Book", sans-serif;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
+    font-size: 35px;
 }
 
 nav {
@@ -61,12 +63,7 @@ figure {
     background-size: cover;
     opacity: 90%;
 }
- 
-/*Help footer SERVIZI*/
-/*footer {
-    position: absolute;
-    bottom: 0;   
-   }*/
+
 
 .home-section-sx , .home-section-dx {
     width: 1200px;
@@ -97,9 +94,10 @@ figure {
 
 .home-article h2 {
     padding: 10px;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
-    font-weight: bolder;
-    font-size: 36px;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
 .home-section-dx article {
@@ -146,8 +144,8 @@ figure {
 }
 
 #chi-siamo h1 {
-    font-weight: bold;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
     font-size: 50px;
     text-transform: uppercase;
     margin: 20px;
@@ -155,15 +153,17 @@ figure {
 
 #servizi {
     width: 1000px;
-    height: 900px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
 }
+/*QUI se tolgo l'altezza del contenitore, il footer sale a destra*/
 
 
 #servizi h1{
     text-align: center;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
     font-size: 40px;
     margin-top: 30px;
 }
@@ -171,16 +171,16 @@ figure {
 .servizio {
     height: 450px;
     width: 250px;
-    border: 2px solid;
     float: left;
     margin: 30px;
     overflow: hidden;
-    /*Qui ora è okay, ma se il testo dovesse allungarsi, sarebbe nascosto!*/
+    /*Qui ora è okay, ma se il testo dovesse allungarsi, sarebbe nascosto! In più con margin lef/right auto, non riesco a metterli al centro, perc hé?*/
 }
 
 .servizio h2 {
     margin-top: 10px;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
     padding: 5px;
 }
 
@@ -212,7 +212,6 @@ figure {
 
 #contatti {
     width: 80%;
-    height: 800px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -232,11 +231,12 @@ figure {
 }
 
 .recapiti h2 {
-    font-size: 40px;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
-    font-weight: bold;
+    font-size: 45px;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
     text-align: center;
+    padding: 10px;
 }
 
 .recapiti .description {
@@ -263,9 +263,9 @@ figure {
 }
 
 .emergenze h1 {
-    font-size: 40px;
-    font-family: "Cooper Hewitt Heavy", sans-serif;
-    font-weight: bold;
+    font-size: 54px;
+    font-family: "Passion One", sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
 }
 

@@ -30,21 +30,21 @@ header {
 }
 
 nav {
-    margin-top: 70px;
+    margin-top: 80px;
     float: right;
-    padding: 10px;
 }
 
 nav li {
     display: inline;
     list-style: none;
-    margin-left:
 }
 
 nav a {
     text-decoration: none;
+    font-family: "Cooper Hewitt Book", sans-serif;
+    color: black;
     display: inline-block;
-    padding: 10px;
+    padding: 12px;
 }
 
 nav a:hover {
@@ -61,6 +61,12 @@ figure {
     background-size: cover;
     opacity: 90%;
 }
+ 
+/*Help footer SERVIZI*/
+/*footer {
+    position: absolute;
+    bottom: 0;   
+   }*/
 
 .home-section-sx , .home-section-dx {
     width: 1200px;
@@ -109,3 +115,161 @@ figure {
     padding: 30px;
 }
 
+
+#chi-siamo .section-sx {
+    width: 1200px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#chi-siamo .section-sx img {
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 600px;
+    
+}
+
+#chi-siamo article {
+    padding: 40px;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+    margin-top: 40px;
+}
+
+#chi-siamo h3, p{ 
+    font-weight: normal;
+    font-family: "Cooper Hewitt Book", sans-serif;
+}
+
+#chi-siamo h1 {
+    font-weight: bold;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+#servizi {
+    width: 1000px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#servizi h1{
+    text-align: center;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.servizio {
+    height: 450px;
+    width: 250px;
+    border: 2px solid;
+    float: left;
+    margin: 30px;
+    overflow: hidden;
+    /*Qui ora è okay, ma se il testo dovesse allungarsi, sarebbe nascosto!*/
+}
+
+.servizio h2 {
+    margin-top: 10px;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    padding: 5px;
+}
+
+.servizio p {
+    padding: 5px;
+    font-family: "Cooper Hewitt Book", sans-serif;
+}
+
+.foto-servizio {
+    height: 200px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ricambi {
+    background-image: url(mcimg/ricambi.jpg);
+    
+}
+
+#soccorso {
+    background-image: url(mcimg/soccorso.jpg);
+}
+
+#manutenzione {
+    background-image: url(mcimg/manutenzione.jpg);
+}
+
+
+#contatti {
+    width: 80%;
+    height: 800px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.recapiti  {
+    width: 700px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /*Potrei aver risolto dando queste proprietà direttamente all'h2? Non rischio intralci per la natura del h2, essendo block?*/
+.recapiti .title {
+    height: 100px;
+    width: 250px;
+    margin: 40px;
+    float: left;
+}
+
+.recapiti h2 {
+    font-size: 40px;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.recapiti .description {
+    font-family: "Cooper Hewitt Book", sans-serif;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+    margin: 40px;
+}
+
+#contatti a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.emergenze {
+    line-height: 50px;
+    width: 500px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.emergenze h1 {
+    font-size: 40px;
+    font-family: "Cooper Hewitt Heavy", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.emergenze p {
+    font-family: "Cooper Hewitt Book", sans-serif;
+    font-size: 20px;
+}

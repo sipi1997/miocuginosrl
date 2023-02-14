@@ -273,7 +273,7 @@ RISPOSTA: mancava "align-items: flex-start", visto che il flex di default stretc
     margin-right: 10%;
 }
 
-.recapiti  {
+.recapiti {
     width: 600px;
     height: 250px;
     margin-left: auto;
@@ -283,7 +283,6 @@ RISPOSTA: mancava "align-items: flex-start", visto che il flex di default stretc
     justify-content: space-between;
 }
  /*Potrei aver risolto dando queste proprietà direttamente all'h2? Non rischio intralci per la natura del h2, essendo block?*/
-
 
 .recapiti h2 {
     font-size: 45px;
@@ -305,6 +304,12 @@ RISPOSTA: mancava "align-items: flex-start", visto che il flex di default stretc
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+.mappa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .emergenze {

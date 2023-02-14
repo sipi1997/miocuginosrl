@@ -96,6 +96,13 @@ figure {
     opacity: 90%;
 }
 
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
 main .home-section-sx {
     display: flex;
 }

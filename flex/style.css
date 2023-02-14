@@ -40,13 +40,17 @@ nav ul{
 nav ul li {
     position: relative;
     list-style: none;
+    z-index: 3;
+    /*E' una proprietà che afferma la posizione di un elemento rispetto agli altri, nell'asse z (profondità), esattamente come i livelli
+    In questo modo, la tendina, quando toccherà l'hero, non sparirà, perché sovrapposta ad esso*/
 }
 
 nav ul li a {
     text-decoration: none;
     font-family: "Cooper Hewitt Book", sans-serif;
     color: black;
-    display: inline-block;
+    display: block;
+    /* Gli va dato block, perché in questo modo l'hover grigio coprirà tutto il blocco*/
     padding: 12px;
 }
 
@@ -60,10 +64,11 @@ nav ul li ul {
     left: 0;
     display: none;
     width: 120px;
+    background-color: azure
 }
 
 nav ul li ul a:hover {
-    background-color: azure;
+    background-color: grey;
 }
 
 

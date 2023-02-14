@@ -37,12 +37,12 @@ nav ul{
   display: flex;  
 }
 
-nav li {
+nav ul li {
     position: relative;
     list-style: none;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
     font-family: "Cooper Hewitt Book", sans-serif;
     color: black;
@@ -163,7 +163,7 @@ main .home-section-sx {
     display: flex;
     align-items: flex-start;
 }
-/*Dopo aver messo il flex, l'immagine si è sformata, PERCHE'? 
+/*Dopo aver messo il flex, l'immagine si è sformata, PERCHE'?  
 RISPOSTA: mancava "align-items: flex-start", visto che il flex di default stretcha gli elementi*/
 
 #chi-siamo .section-sx img {
